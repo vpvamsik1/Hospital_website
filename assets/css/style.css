@@ -1,0 +1,44 @@
+#title{
+    color: white;
+    background-color: #00A3C8;
+    padding: 1% 2%;
+}
+#top{
+    display: inline-block;
+    width: 49%;
+    /* text-align: right; */
+}
+#contact{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+.aCenter{
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+}
+#R1{
+    margin-top: 10%;
+}
+
+@media (max-width: 1025px) { 
+
+
+    #top, #contact{
+        width: 100%;
+    }
+}
+@media (max-width: 991.98px) { 
+
+
+   #contact{
+        margin-top: 3%;
+    }
+
+}
+@media (max-width: 575.98px) { 
+    #top, #contact{
+        text-align: center;
+    }
+ }
